@@ -1,4 +1,4 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://thecloudmason.github.io
 
 languageCode: en-us
 title: "John's Blog"
@@ -21,9 +21,9 @@ languages:
   en:
     languageName: English
     weight: 1
-  bn:
-    languageName: বাংলা
-    weight: 3
+  # bn:
+  #   languageName: বাংলা
+  #   weight: 3
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -62,7 +62,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/thecloudmason/thecloudmason.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -146,7 +146,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:
@@ -278,7 +278,7 @@ params:
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
     newsletter:
-      enable: true
+      enable: false
       provider: mailchimp
       mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
 
